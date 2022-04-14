@@ -41,11 +41,11 @@ This script can be easily modified to find the results of any election like this
 
 ![script_files](RESOURCES/script_files.png) 
 
-Second, make sure that counties and candidates are in the correct columns:
+Second, make sure that counties and candidates are in the correct index:
 
 ![script_county_candidate](RESOURCES/script_county_candidate.png) 
 
-Also, you can still use this script as a template if the file that contains the data has more information, such as the city, postal code etc. They can be added to the analysis by extracting that characteristic from the correct column, use an accumulator to count and write the same decision and repetition statements. It is important to make sure to print correctly. This script is great for a small election analysis, but it can definitely grow to an audit of a presidential election.
+Also, you can still use this script as a template if the file that contains the data has more information, such as the city, postal code etc. They can be added to the analysis by extracting that characteristic from the correct index, use an accumulator to count and write the same decision and repetition statements. It is important to make sure to print correctly. This script is great for a small election analysis, but it can definitely grow to an audit of a presidential election.
 
 ![script_count](RESOURCES/script_count.png) 
 ![script_loop](RESOURCES/script_loop.png) 
