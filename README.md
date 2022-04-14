@@ -37,7 +37,7 @@ Assist Tom and Seth from the Colorado Board of Elections with the results of rec
 <img src="https://github.com/annarochav/Election_Analysis/blob/main/RESOURCES/election_results_command_terminal.png" width="350" height="550" />
 
 ## ⚡Election-Audit Summary:
-This script can be easily modified to find the results of any election like this one. First, it is important to change the path of the file that contains the data and the path of the file where the results will be printed:
+This script can be easily modified to find the results of any election like this one that has 3 different columns (Ballot ID, County, and Candidate Voted for). First, it is important to change the path of the csv file that contains the data and the path of the text file where the results will be printed for better visualization:
 
 ![script_files](RESOURCES/script_files.png) 
 
@@ -45,7 +45,7 @@ Second, make sure that counties and candidates are in the correct columns:
 
 ![script_county_candidate](RESOURCES/script_county_candidate.png) 
 
-Also, you can still use this script if the file that contains the data has more information, such as the city, postal code etc. They can be added to the analysis by extracting that characteristic from the correct column, use an accumulator to count and write a for loop to get the information from the dictionary. It is important to make sure to print correctly. 
+Also, you can still use this script as a template if the file that contains the data has more information, such as the city, postal code etc. They can be added to the analysis by extracting that characteristic from the correct column, use an accumulator to count and write the same decision and repetition statements. It is important to make sure to print correctly. This script is great for a small election analysis, but it can definitely grow to an audit of a presidential election.
 
 ![script_count](RESOURCES/script_count.png) 
 ![script_loop](RESOURCES/script_loop.png) 
