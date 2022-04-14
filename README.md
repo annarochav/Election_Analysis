@@ -43,5 +43,10 @@ This script can be easily modified to find the results of any election like this
 
 Second, make sure that counties and candidates are in the correct columns:
 
+![script_county_candidate](RESOURCES/script_county_candidate.png) 
+
 Also, you can still use this script if the file that contains the data has more information, such as the city, postal code etc. They can be added to the analysis by extracting that characteristic from the correct column, use an accumulator to count and write a for loop to get the information from the dictionary. It is important to make sure to print correctly. 
+
+![script_count](RESOURCES/script_count.png) 
+![script_loop](RESOURCES/script_loop.png) 
 
